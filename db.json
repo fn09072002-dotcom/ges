@@ -1,0 +1,224 @@
+{
+  "utilisateurs": [
+    {
+      "id": 1,
+      "nom": "Administratrice",
+      "email": "admin@dalalakdiam.sn",
+      "password": "admin123",
+      "role": "admin",
+      "photo": "WhatsApp Image 2026-03-10 at 13.07.26.jpeg"
+    },
+    {
+      "nom": "mareme ndiaye",
+      "email": "mya@gmail.com",
+      "password": "mya",
+      "role": "membre",
+      "id": 2
+    },
+    {
+      "nom": "Mareme Ndiaye",
+      "email": "remzo7922@gmail.com",
+      "password": "dosa",
+      "role": "membre",
+      "id": 3
+    }
+  ],
+  "membres": [
+    {
+      "id": 1,
+      "nom": "Fatou Ndiaye",
+      "telephone": "77 123 45 67",
+      "statut": "actif",
+      "dateAdhesion": "2024-01-10"
+    },
+    {
+      "id": 2,
+      "nom": "Mariama Diallo",
+      "telephone": "76 234 56 78",
+      "statut": "actif",
+      "dateAdhesion": "2024-02-15"
+    },
+    {
+      "id": 3,
+      "nom": "Aita Sarr",
+      "telephone": "70 345 67 89",
+      "statut": "actif",
+      "dateAdhesion": "2024-03-01"
+    },
+    {
+      "id": 4,
+      "nom": "Bineta Fall",
+      "telephone": "78 456 78 90",
+      "statut": "actif",
+      "dateAdhesion": "2024-03-20"
+    },
+    {
+      "id": 5,
+      "nom": "Rama Gueye",
+      "telephone": "77 567 89 01",
+      "statut": "actif",
+      "dateAdhesion": "2024-04-05"
+    },
+    {
+      "id": 6,
+      "nom": "Amina Sow",
+      "telephone": "76 678 90 12",
+      "statut": "actif",
+      "dateAdhesion": "2024-04-18"
+    },
+    {
+      "id": 7,
+      "nom": "Mame Diop",
+      "telephone": "70 789 01 23",
+      "statut": "actif",
+      "dateAdhesion": "2024-05-02"
+    },
+    {
+      "id": 8,
+      "nom": "Alima Diop",
+      "telephone": "76 098 34 67",
+      "statut": "actif",
+      "dateAdhesion": "2024-05-14"
+    },
+    {
+      "id": 9,
+      "nom": "Yacine Faye",
+      "telephone": "75 012 34 45",
+      "statut": "actif",
+      "dateAdhesion": "2024-06-01"
+    },
+    {
+      "nom": "Mame Fatou",
+      "telephone": "77 098 87 65",
+      "statut": "actif",
+      "dateAdhesion": "2026-06-14",
+      "id": 10
+    }
+  ],
+  "cotisations": [
+    {
+      "id": 1,
+      "membreId": 1,
+      "nom": "Fatou Ndiaye",
+      "montant": 5000,
+      "date": "2026-06-01",
+      "statut": "payé"
+    },
+    {
+      "id": 2,
+      "membreId": 2,
+      "nom": "Mariama Diallo",
+      "montant": 5000,
+      "date": "2026-06-01",
+      "statut": "payé"
+    },
+    {
+      "id": 3,
+      "membreId": 3,
+      "nom": "Aita Sarr",
+      "montant": 5000,
+      "date": "2026-06-01",
+      "statut": "payé"
+    },
+    {
+      "id": 4,
+      "membreId": 4,
+      "nom": "Bineta Fall",
+      "montant": 5000,
+      "date": "2026-06-01",
+      "statut": "payé"
+    },
+    {
+      "id": 5,
+      "membreId": 5,
+      "nom": "Rama Gueye",
+      "montant": 5000,
+      "date": "2026-06-01",
+      "statut": "payé"
+    },
+    {
+      "id": 6,
+      "membreId": 6,
+      "nom": "Amina Sow",
+      "montant": 5000,
+      "date": "2026-06-01",
+      "statut": "payé"
+    },
+    {
+      "id": 7,
+      "membreId": 7,
+      "nom": "Mame Diop",
+      "montant": 5000,
+      "date": "2026-06-01",
+      "statut": "payé"
+    },
+    {
+      "membreId": 10,
+      "nom": "Mame Fatou",
+      "montant": 5000,
+      "date": "2026-06-14",
+      "statut": "payé",
+      "id": 8
+    },
+    {
+      "membreId": 8,
+      "nom": "Alima Diop",
+      "montant": 5000,
+      "date": "2026-06-14",
+      "statut": "payé",
+      "id": 10
+    },
+    {
+      "membreId": 2,
+      "nom": "Mariama Diallo",
+      "montant": 5000,
+      "date": "2026-06-14",
+      "statut": "payé",
+      "id": 11
+    }
+  ],
+  "finances": {
+    "totalCotisations": 450000,
+    "totalDepenses": 50000,
+    "solde": 400000,
+    "entrees": 500000,
+    "id": 1
+  },
+  "activites": [
+    {
+      "id": 1,
+      "nom": "Thiakry",
+      "ventes": 120,
+      "date": "2026-05-01"
+    },
+    {
+      "id": 2,
+      "nom": "Jus de bissap",
+      "ventes": 98,
+      "date": "2026-05-10"
+    },
+    {
+      "id": 3,
+      "nom": "Miel naturel",
+      "ventes": 70,
+      "date": "2026-05-20"
+    }
+  ],
+  "parametres": {
+    "nomGroupement": "Groupement féminin de Dakar",
+    "nomCourt": "Dalal Ak Diam",
+    "logo": "logo.png",
+    "montantCotisationMensuelle": 5000,
+    "devise": "FCFA"
+  },
+  "depenses": [
+    {
+      "libelle": "libelé(achat mil)",
+      "montant": 20000,
+      "date": "2026-06-14",
+      "categorie": "Achat",
+      "id": 1
+    }
+  ],
+  "actions": []
+}
